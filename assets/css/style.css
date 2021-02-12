@@ -1,0 +1,66 @@
+@import "normalize.css";
+/*@import url(//db.onlinewebfonts.com/c/b872d7e745ad61e62ea45a545ff5c1d0?family=Miso);*/
+@font-face {
+    font-family: "Miso"; 
+    src: url("//db.onlinewebfonts.com/t/b872d7e745ad61e62ea45a545ff5c1d0.eot"); 
+    src: url("//db.onlinewebfonts.com/t/b872d7e745ad61e62ea45a545ff5c1d0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b872d7e745ad61e62ea45a545ff5c1d0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b872d7e745ad61e62ea45a545ff5c1d0.woff") format("woff"), url("//db.onlinewebfonts.com/t/b872d7e745ad61e62ea45a545ff5c1d0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b872d7e745ad61e62ea45a545ff5c1d0.svg#Miso") format("svg"); }
+
+body{
+    background-color:       rgb(253, 222, 126);
+}
+
+main {
+    display:                flex;
+    justify-content:        center;
+    align-items:            center;
+    height:                 100vh;
+}
+
+.sticker {
+    display:                flex;
+    flex-direction:         column;
+    align-items:            center;
+    justify-content:        center;
+    background-color:       #fff;
+    width:                  360px;
+    height:                 440px;
+    border-radius:          4px;
+    margin:                 15px;
+    box-shadow:             0 2px 3px rgb(211, 185, 105);
+    font-family:            'Miso', 'Lucida Console';
+}
+
+.sticker > h1 {
+    color:                rgb(2, 153, 91);
+    margin:                 15px 0;
+    font-size:              70px;
+    font-weight:            800;
+}
+
+.sticker > h2 {
+    color:                rgb(51,51,51);
+    font-size:              45px;
+    margin-top:             20px;
+    margin-bottom:          5px;
+    font-weight: 400;
+}
+
+.sticker > p {
+    color: rgb(133,133,133);
+    font-size: 30px;
+    margin:                 0;
+    text-align: center;
+}
+
+.gold {
+    height: 500px;
+}
+
+.gold > .cup-image {
+    margin: 8px 0;
+}
+
+.cup-image {
+    height: 140px;
+    width:auto;
+}
